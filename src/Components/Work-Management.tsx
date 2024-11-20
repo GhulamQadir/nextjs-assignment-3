@@ -1,5 +1,5 @@
-// import Image from "next/image";
-
+import Image from "next/image";
+import Work_Together_Image from "@/assets/Work_Together_Image.png";
 function WorkManagement() {
   return (
     <div className="md:h-[1588px] md:py-[140px] py-8 px-[20px] lg:px-[220px] gap-24 flex-wrap">
@@ -20,12 +20,12 @@ function WorkManagement() {
         <div className="w-full h-[400px] lg:h-[500px] lg:w-[824px] bg-[#C4DEFD]"></div>
       </div>
       <div className="mt-32 md:flex ">
-        {/* <Image
-          height={}
-          src={"/assets/Work_Together_Image.png"}
-          className=""
+        <Image
+          height={150}
+          width={300}
+          src={Work_Together_Image}
           alt="work image"
-        /> */}
+        />
       </div>
     </div>
   );
