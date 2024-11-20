@@ -1,9 +1,9 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 function WorkManagement() {
   return (
     <div className="md:h-[1588px] md:py-[140px] py-8 px-[20px] lg:px-[220px] gap-24 flex-wrap">
-      <div className="md:h-[547px] md:flex gap-16 items-center border-4 border-purple-600">
+      <div className="md:h-[547px] md:flex gap-16 items-center">
         <div className="md:h-[411px] md:w-3/6">
           <p className="text-[72px] font-inter font-bold leading-[87.14px]">
             Project Management
@@ -20,11 +20,12 @@ function WorkManagement() {
         <div className="w-full h-[400px] lg:h-[500px] lg:w-[824px] bg-[#C4DEFD]"></div>
       </div>
       <div className="mt-32 md:flex ">
-        <Image
+        {/* <Image
+          height={}
           src={"/assets/Work_Together_Image.png"}
           className=""
           alt="work image"
-        />
+        /> */}
       </div>
     </div>
   );
