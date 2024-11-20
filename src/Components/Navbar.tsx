@@ -1,12 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar() {
   return (
-    <div className="bg-[#043873] h-20 w-full flex justify-between py-4 px-[220px]">
-      <Image src={"/assets/Logo.png"} height={34} width={191} alt="logo" />
-      <div className="w-[735.5px] h-[60px] flex gap-14">
-        <div className="w-[549px] flex h-[23px] gap-8 my-3">
+    <div className="bg-[#043873] h-14 items-center md:h-20 flex justify-between py-4 lg:px-[220px] md:px-[50px] px-[20px]">
+      <Image
+        src={"/assets/Logo.png"}
+        className="md:h-[34px] md:w-[191px] h-[25px] w-[140px]"
+        height={34}
+        width={191}
+        alt="logo"
+      />
+      <div className="lg:hidden">
+        <button className="text-white">
+          <GiHamburgerMenu />
+        </button>
+      </div>
+      <div className="lg:w-[735.5px] hidden h-[60px] lg:flex gap-14 items-center">
+        <div className="lg:w-[549px]  object-none flex h-[23px] gap-8 my-3">
           <div className="w-[78px] gap-[10px]">
             <Link className="text-white" href={"#"}>
               Products
@@ -29,7 +41,7 @@ function Navbar() {
           </div>
         </div>
         <div>
-          <button className="w-[126px] h-[50px] bg-[#FFE492] text-[#043873]">
+          <button className="lg:w-[126px] sm:w-[100px] h-[50px] bg-[#FFE492] text-[#043873]">
             login
           </button>
         </div>
