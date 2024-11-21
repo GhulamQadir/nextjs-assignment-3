@@ -1,11 +1,11 @@
-import React from "react"
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
-import logo from "@/assets/Logo.png"
+import logo from "@/assets/Logo.png";
 function Navbar() {
   return (
-    <div className="bg-[#043873] h-14 items-center md:h-20 flex justify-between py-4 lg:px-[220px] md:px-[50px] px-[20px]">
+    <div className="bg-[#043873] h-14 items-center md:h-20 sticky top-0 flex justify-between py-4 lg:px-[220px] md:px-[50px] px-[20px]">
       <Image
         src={logo}
         className="md:h-[34px] md:w-[191px] h-[25px] w-[140px]"
