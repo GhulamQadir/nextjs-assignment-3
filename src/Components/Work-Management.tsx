@@ -1,3 +1,4 @@
+import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 import Work_Together_Image from "@/assets/Work_Together_Image.png";
 function WorkManagement() {
@@ -13,8 +14,9 @@ function WorkManagement() {
             expressions and diagrams directly from the app. Take photos with the
             mobile app and save them to a note.
           </p>
-          <button className="h-[63px] w-[201px] bg-[#4F9CF9] p-5 text-white font-inter font-medium rounded-lg md:mt-10 my-5">
-            Try Whitespace free
+          <button className="h-[63px] bg-[#4F9CF9] p-5 text-white font-inter font-medium rounded-lg md:mt-10 my-5">
+            Try Whitespace free{" "}
+            <FaArrowRight fontSize={15} className="inline-block" />
           </button>
         </div>
         <div className="w-full h-[400px] lg:h-[500px] lg:w-[824px] bg-[#C4DEFD]"></div>
@@ -43,7 +45,7 @@ function WorkManagement() {
           </div>
           <div className="mt-8">
             <button className="h-[55px] w-[186px] rounded-md  bg-[#4F9CF9] text-white text-lg font-medium">
-              Try it now
+              Try it now <FaArrowRight fontSize={15} className="inline-block" />
             </button>
           </div>
         </div>

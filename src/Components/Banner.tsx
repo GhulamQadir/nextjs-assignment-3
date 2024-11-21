@@ -1,3 +1,4 @@
+import { FaArrowRight } from "react-icons/fa";
 function Banner() {
   return (
     <div className="md:h-[729px] md:py-[140px] py-8 px-[20px] lg:px-[220px] bg-[#043873] md:flex items-center w-full">
@@ -11,7 +12,8 @@ function Banner() {
             plan, analyze and manage everyday tasks
           </p>
           <button className="h-[63px] w-[219px] bg-[#4F9CF9] p-5 text-white font-inter font-medium rounded-lg mt-7">
-            Try Whitespace free
+            Try Whitespace free{" "}
+            <FaArrowRight fontSize={15} className="inline-block" />
           </button>
         </div>
       </div>

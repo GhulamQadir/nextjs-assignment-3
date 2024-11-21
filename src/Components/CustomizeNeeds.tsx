@@ -1,3 +1,4 @@
+import { FaArrowRight } from "react-icons/fa";
 function CustomizeNeeds() {
   return (
     <div className="md:h-[750px] py-[100px] px-[20px] lg:px-[220px] gap-24 md:flex items-center">
@@ -17,7 +18,8 @@ function CustomizeNeeds() {
         </div>
         <div className="mt-10">
           <button className="h-[55px] w-[186px] rounded-md  bg-[#4F9CF9] text-white text-lg font-medium font-inter">
-            Let&apos;s Go
+            Let&apos;s Go{" "}
+            <FaArrowRight fontSize={15} className="inline-block" />
           </button>
         </div>
       </div>
