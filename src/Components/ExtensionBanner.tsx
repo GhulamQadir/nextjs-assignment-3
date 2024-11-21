@@ -10,7 +10,7 @@ function ExtensionBanner() {
           save web pages or take screenshots as notes.
         </p>
         <button className="h-[50px] w-[190px] md:h-[63px] md:w-[219px] bg-[#4F9CF9] p-5 text-white font-inter font-medium rounded-lg mt-10 mb-7">
-          Let's Go
+          Let&apos;s Go
         </button>
       </div>
       <div className="w-full h-[400px] lg:h-[549px] lg:w-[700px] bg-[#C4DEFD]"></div>
