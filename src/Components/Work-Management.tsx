@@ -2,10 +2,10 @@ import Image from "next/image";
 import Work_Together_Image from "@/assets/Work_Together_Image.png";
 function WorkManagement() {
   return (
-    <div className="md:h-[1588px] md:py-[140px] py-8 px-[20px] lg:px-[220px] gap-24 flex-wrap">
+    <div className="md:h-[1370px] py-[100px] px-[20px] lg:px-[220px] gap-24">
       <div className="md:h-[547px] md:flex gap-16 items-center">
         <div className="md:h-[411px] md:w-3/6">
-          <p className="text-[72px] font-inter font-bold leading-[87.14px]">
+          <p className="text-[52px] md:text-[72px] font-inter font-bold leading-[87.14px]">
             Project Management
           </p>
           <p className="text-base font-inter font-normal leading-7 mt-3">
@@ -19,13 +19,34 @@ function WorkManagement() {
         </div>
         <div className="w-full h-[400px] lg:h-[500px] lg:w-[824px] bg-[#C4DEFD]"></div>
       </div>
-      <div className="mt-32 md:flex ">
-        <Image
-          height={150}
-          width={300}
-          src={Work_Together_Image}
-          alt="work image"
-        />
+      <div className="mt-32 md:flex md:h-[560px]  gap-24 items-center">
+        <div>
+          <Image
+            width={500}
+            src={Work_Together_Image}
+            alt="work image"
+            className="h-[450px]"
+          />
+        </div>
+        <div className="lg:w-[670px] mt-4">
+          <div>
+            <p className="text-[52px] md:text-[72px] font-bold leading-[87.14px] font-inter">
+              Work Together
+            </p>
+          </div>
+          <div className="mt-4">
+            <p className="text-base font-normal font-inter leading-[30px]">
+              With whitepace, share your notes with your colleagues and
+              collaborate on them. You can also publish a note to the internet
+              and share the URL with others.
+            </p>
+          </div>
+          <div className="mt-8">
+            <button className="h-[55px] w-[186px] rounded-md  bg-[#4F9CF9] text-white text-lg font-medium">
+              Try it now
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
