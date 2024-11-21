@@ -4,8 +4,8 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="md:h-[461px] md:py-[140px] py-8 px-[20px] lg:px-[220px] bg-[#043873] md:flex items-center w-full">
-      <div className="md:h-[289px] md:w-full md:gap-[100px] gap-9 flex flex-wrap md:justify-between justify-center">
+    <div className="md:h-[370px] md:py-[140px] py-8 px-[20px] lg:px-[220px] bg-[#043873] md:flex items-center w-full">
+      <div className="md:h-[289px] md:w-full md:gap-[100px] gap-9 flex flex-wrap md:justify-between justify-center items-center">
         <div className="lg:w-[295px]">
           <div>
             <Image src={Logo} className="w-[191px] h-9" alt="logo" />
