@@ -1,11 +1,11 @@
-import WorkManagement from "@/Components/Work-Management";
-import Banner from "../Components/Banner";
-import Navbar from "../Components/Navbar";
-import ExtensionBanner from "@/Components/ExtensionBanner";
-import CustomizeNeeds from "@/Components/CustomizeNeeds";
-import WorkEveryWhere from "@/Components/WorkEveryWhere";
-import Sponsors from "@/Components/Sponsors";
-import Footer from "@/Components/Footer";
+import WorkManagement from "@/components/Work-Management";
+import Banner from "../components/Banner";
+import Navbar from "../components/Navbar";
+import ExtensionBanner from "@/components/ExtensionBanner";
+import CustomizeNeeds from "@/components/CustomizeNeeds";
+import WorkEveryWhere from "@/components/WorkEveryWhere";
+import Sponsors from "@/components/Sponsors";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
